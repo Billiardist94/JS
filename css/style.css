@@ -9,5 +9,9 @@
 }
 
 .form__button {
-  color: green;
+  color: plum;
+}
+
+.form__input {
+  background-color: yellow;
 }
