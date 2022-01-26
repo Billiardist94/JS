@@ -1,0 +1,11 @@
+@import "_title";
+
+.form{
+    background-color: rgb(255, 108, 108);
+    height: 60px;
+    &__button{
+        color: green;
+    }
+    &__input{
+    }
+}

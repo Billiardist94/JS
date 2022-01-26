@@ -1,0 +1,13 @@
+.title {
+  color: blue;
+  font-size: 30px;
+}
+
+.form {
+  background-color: #ff6c6c;
+  height: 60px;
+}
+
+.form__button {
+  color: green;
+}
