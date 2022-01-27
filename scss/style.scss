@@ -1,11 +1,16 @@
-@import "_title";
-
-.form{
-    background-color: rgb(255, 108, 108);
-    &__button{
-        color: plum;
+.counter{
+    display: flex;
+    align-items: center;
+    &__content{}
+    &__link{
+        margin-right: 30px;
+        svg{
+            cursor: pointer;
+        }
+        .active{
+            fill: red;
+        }
     }
-    &__input{
-        background-color: yellow;
-    }
+    &__num{}
+    &__text{}
 }

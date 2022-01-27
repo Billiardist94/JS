@@ -1,5 +1,17 @@
-let arr = [1, 2, 3, 4, 5];
+const likeBtn = document.querySelectorAll('.like__btn');
 
-arr.forEach(i => {
-    i % 2 === 0 ? console.log(true, i % 2) : console.log(false, i % 2)  
+likeBtn.forEach(e => {
+    e.addEventListener('click', (event) => {
+        event.preventDefault;
+        const likeNumEl = document.querySelector('.counter__num');
+        const likeNum = +likeNumEl.textContent;
+        if (e.classList.contains("active")) {
+            likeNumEl.textContent = likeNum - 1;
+            e.classList.remove('active')
+        }
+        else {
+            likeNumEl.textContent = likeNum + 1;
+            e.classList.add('active')
+        }
+    })
 })

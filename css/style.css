@@ -1,16 +1,22 @@
-.title {
-  color: blue;
-  font-size: 30px;
+.counter {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.form {
-  background-color: #ff6c6c;
+.counter__link {
+  margin-right: 30px;
 }
 
-.form__button {
-  color: plum;
+.counter__link svg {
+  cursor: pointer;
 }
 
-.form__input {
-  background-color: yellow;
+.counter__link .active {
+  fill: red;
 }
